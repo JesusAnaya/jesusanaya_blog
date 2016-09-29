@@ -1,0 +1,12 @@
+pyramid==1.7.3
+pyramid_jinja2==2.6.2
+pyramid_debugtoolbar==3.0.4
+pyramid_tm==1.0
+SQLAlchemy==1.0.15
+transaction==1.6.1
+zope.sqlalchemy==0.7.7
+waitress==1.0.0
+psycopg2==2.6.2
+pillow==3.3.1
+alembic==0.8.8
+restless==2.0.1

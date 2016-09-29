@@ -1,0 +1,3 @@
+[run]
+source = jesusanaya_blog
+omit = jesusanaya_blog/test*
