@@ -1,6 +1,6 @@
 
 
 class Provider(object):
-    def __init__(self, request, dbsession):
-        self.request = request
+    def __init__(self, dbsession, settings):
         self.dbsession = dbsession
+        self.settings = settings

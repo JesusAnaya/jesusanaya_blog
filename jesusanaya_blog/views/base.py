@@ -8,8 +8,9 @@ class View(object):
         self.request = request
         self.response = request.response
         self.context = request.context
-        self.dbsession = request.dbsession
-        self.settings = request.registry.settings
+
+        dbsession = request.dbsession
+        settings = request.registry.settings
 
         if self.provider_class:
-            self.provider = self.provider_class(request, self.dbsession)
+            self.provider = self.provider_class(dbsession, settings)

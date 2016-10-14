@@ -2,6 +2,7 @@ pyramid==1.7.3
 pyramid_jinja2==2.6.2
 pyramid_debugtoolbar==3.0.4
 pyramid_tm==1.0
+pyramid-storage==0.1.2
 SQLAlchemy==1.0.15
 transaction==1.6.1
 zope.sqlalchemy==0.7.7
